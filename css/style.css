@@ -1,0 +1,42 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(144, 18, 6);
+}
+
+body {
+    background-image: url(../Beach.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.read-more-btn {
+    border: rgb(144, 18, 6) 1px solid;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.read-more-btn a {
+    text-decoration: none;
+}
+
+.read-more-btn:hover {
+    background-color: white;
+}
